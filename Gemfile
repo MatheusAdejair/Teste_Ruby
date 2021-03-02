@@ -5,4 +5,5 @@ source "http://rubygems.org"
 # gems to install
 
 gem 'httparty'
-gem 'cucumber'  
+gem 'cucumber'
+gem 'faker'

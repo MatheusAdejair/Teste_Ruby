@@ -41,6 +41,8 @@ GEM
       cucumber-cucumber-expressions (~> 10.3, >= 10.3.0)
       cucumber-messages (~> 13.0, >= 13.0.1)
     diff-lcs (1.4.4)
+    faker (2.16.0)
+      i18n (>= 1.6, < 2)
     ffi (1.14.2-x64-mingw32)
     httparty (0.18.1)
       mime-types (~> 3.0)
@@ -72,6 +74,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
+  faker
   httparty
 
 BUNDLED WITH
