@@ -8,6 +8,6 @@ Dado('que o endereço de API de consultas de usuários esteja OK') do
   end
   
   Então('a API deverá retornar confirmação de sucesso da consulta com código {int}') do |int|
-    puts "response code :#{$response.code}"
-    puts "response body :#{$response.body}"
+    print "response code :#{$response.code}"
+    print "response body :#{$response.body}"
   end
