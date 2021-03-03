@@ -1,8 +1,6 @@
 Before '@usuario' do
     @nome = Faker::Name.first_name
-
     $email = @nome+"@qa.teste.com"
-    print "teste print string :#{$email}"
 
     @body = {
         "nome": @nome,

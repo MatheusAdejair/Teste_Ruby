@@ -1,5 +1,5 @@
 
-Dado('que o endereço de API de consultas de usuários esteja OK') do
+Dado('que o endereço de API de GET de usuários esteja OK') do
     $uri_base = "https://serverest.dev/usuarios"
   end
   

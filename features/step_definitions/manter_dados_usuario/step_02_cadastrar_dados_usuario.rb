@@ -31,6 +31,11 @@ Quando('realizar uma requisição para registrar um novo usuário') do
 end
 
 Então('a API deverá retornar confirmação de sucesso do cadastro com sucesso com código {int}') do |int|
-  print "response code :#{$response.code}"
-  print "response body :#{$response.body}"
+  expect($response.code).to eq(201)
+  # print "response code :#{$response.code}"
+  expect($response.message).to eq("Created")
+  # print "response body :#{$response.message}"
+
+  #Print dos dados do response
+  print "id : #{$response["_id"]}"
 end
